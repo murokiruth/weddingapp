@@ -1,0 +1,22 @@
+import React from 'react';
+import { RsvpCont, RsvpWrapper, RsvpH, RsvpH1 } from './RsvpElements';
+
+const RSVP = () => {
+	return (
+		<>
+			<RsvpCont id='rsvp'>
+				<RsvpWrapper>
+					<RsvpH>RSVP</RsvpH>
+					<div>~~~~~~~~~~~~~~~~~~</div>
+					<RsvpH1>ENTER THE NAME ON THE INVITATION</RsvpH1>
+				</RsvpWrapper>
+				<form>
+					<input type='text' id='name' name='name' placeholder='e.g. John and Jane Smith' />
+					<button>FIND YOUR RSVP</button>
+				</form>
+			</RsvpCont>
+		</>
+	);
+};
+
+export default RSVP;
