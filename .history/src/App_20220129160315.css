@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* color: #fff0f5; */
+	/* #B85C65 brides maids color */
+	/*#2D2A39 midnightblue*/
+}
+
+.loveIcon {
+	font-size: 35px;
+	margin: 8px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
