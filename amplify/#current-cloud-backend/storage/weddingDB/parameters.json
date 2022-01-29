@@ -1,0 +1,5 @@
+{
+    "tableName": "weddingDB",
+    "partitionKeyName": "firstlast",
+    "partitionKeyType": "S"
+}

@@ -1,0 +1,98 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weddingapp-dev-182128-authRole",
+      "UnauthRoleArn": "arn:aws:iam::569758639273:role/amplify-weddingapp-dev-182128-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::569758639273:role/amplify-weddingapp-dev-182128-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-weddingapp-dev-182128-deployment",
+      "UnauthRoleName": "amplify-weddingapp-dev-182128-unauthRole",
+      "StackName": "amplify-weddingapp-dev-182128",
+      "StackId": "arn:aws:cloudformation:us-east-1:569758639273:stack/amplify-weddingapp-dev-182128/e9cdb480-7e3d-11ec-bd89-0efacc001f0b",
+      "AmplifyAppId": "d3izgz97yll7tr"
+    }
+  },
+  "storage": {
+    "weddingDB": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/storage/weddingDB-cloudformation-template.json",
+        "logicalId": "storageweddingDB"
+      },
+      "lastPushTimeStamp": "2022-01-27T02:52:02.505Z",
+      "output": {
+        "PartitionKeyName": "firstlast",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:dynamodb:us-east-1:569758639273:table/weddingDB-dev",
+        "StreamArn": "arn:aws:dynamodb:us-east-1:569758639273:table/weddingDB-dev/stream/2022-01-26T00:35:18.918",
+        "PartitionKeyType": "S",
+        "Name": "weddingDB-dev"
+      },
+      "lastPushDirHash": "ivQ+QkQ3bbeke+JfeW0p1xM6slc="
+    }
+  },
+  "function": {
+    "weddingLambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "storage",
+          "resourceName": "weddingDB",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ],
+      "lastBuildTimeStamp": "2022-01-27T02:50:57.436Z",
+      "lastPackageTimeStamp": "2022-01-27T02:50:58.314Z",
+      "distZipFilename": "weddingLambda-6469364830306b46722b-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-weddingapp-dev-182128-deployment",
+        "s3Key": "amplify-builds/weddingLambda-6469364830306b46722b-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/function/weddingLambda-cloudformation-template.json",
+        "logicalId": "functionweddingLambda"
+      },
+      "lastPushTimeStamp": "2022-01-27T02:52:02.545Z",
+      "output": {
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:569758639273:function:weddingLambda-dev",
+        "Name": "weddingLambda-dev",
+        "LambdaExecutionRole": "weddingappLambdaRoleade4c290-dev"
+      },
+      "lastPushDirHash": "DGXrztk/gFOlfiFb2Mry9Z/pxjk="
+    }
+  },
+  "api": {
+    "weddingAPI": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "weddingLambda",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ],
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/api/weddingAPI-cloudformation-template.json",
+        "logicalId": "apiweddingAPI"
+      },
+      "lastPushTimeStamp": "2022-01-27T02:52:02.531Z",
+      "output": {
+        "ApiName": "weddingAPI",
+        "RootUrl": "https://bdi7egn1mi.execute-api.us-east-1.amazonaws.com/dev",
+        "ApiId": "bdi7egn1mi"
+      },
+      "lastPushDirHash": "iVdN1YMEmdz5y+2KFBikmz38hEs="
+    }
+  }
+}
