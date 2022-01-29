@@ -1,0 +1,75 @@
+form {
+	display: block;
+	margin: 20px 0px;
+}
+input {
+	background-color: red;
+	border: 0;
+	border-radius: 2px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	font-size: 18px;
+	padding: 15px;
+	height: 40px;
+	width: 300px;
+}
+
+button {
+	height: 30px;
+	/* width: 200px; */
+	margin-top: 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: #000;
+	border-color: transparent;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+
+	font-style: normal;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 17.6px;
+	/* color: #b85c65; */
+	margin: 10px 0px;
+}
+
+button:hover {
+	background-color: #04630b;
+	color: #3a3939;
+	font-weight: 800;
+}
+
+input:focus {
+	outline: none;
+}
+
+.searchIcon {
+	height: 40px;
+	width: 40px;
+	margin: 0px 0px 0px -40px;
+	display: flex;
+	place-items: center;
+}
+
+.searchIcon svg {
+	font-size: 35px;
+}
+
+#clearBtn {
+	cursor: pointer;
+}
+
+.formInput {
+	background-color: #b1a9a9;
+	width: 300px;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 25px;
+}

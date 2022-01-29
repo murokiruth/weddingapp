@@ -1,0 +1,34 @@
+form {
+	display: block;
+}
+input {
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 35px;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+}
+
+button {
+	height: 30px;
+	width: 200pxs;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: #011b03;
+	border-color: transparent;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
