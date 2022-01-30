@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/guests/{guestname}",
+      "lambdaFunction": "weddingLambda",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/guests/*"
+    }
+  ],
+  "resourceName": "weddingAPI",
+  "apiName": "weddingAPI",
+  "functionArns": [
+    {
+      "lambdaFunction": "weddingLambda"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-weddingapp-dev-182128-authRole",
+    "unAuthRoleName": "amplify-weddingapp-dev-182128-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "weddingLambda",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

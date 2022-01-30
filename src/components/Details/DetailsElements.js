@@ -3,17 +3,15 @@ import styled from 'styled-components';
 export const DetailsCont = styled.div`
 	justify-content: center;
 	align-items: center;
-	//height: 300px;
 	width: 100%;
 	margin: 15px 0px;
-	padding: 10px;
+	padding: 30px 10px;
 	text-align: center;
-	border: 2px solid purple;
-	background: #2d2a39;
+	background-color: #384861;
 	color: lavenderblush;
-`;
-export const DetailsH1 = styled.h1`
-	font-family: 'Great Vibes', cursive;
+	h1 {
+		color: lavenderblush;
+	}
 `;
 export const DetailsWrapper = styled.div`
 	justify-content: center;
@@ -21,8 +19,8 @@ export const DetailsWrapper = styled.div`
 `;
 export const DetailsCard = styled.div`
 	padding: 10px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-		'Helvetica Neue', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `;
 export const DetailsH3 = styled.h3``;
 export const DetailsP = styled.p`

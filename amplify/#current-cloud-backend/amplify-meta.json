@@ -20,7 +20,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/storage/weddingDB-cloudformation-template.json",
         "logicalId": "storageweddingDB"
       },
-      "lastPushTimeStamp": "2022-01-27T02:52:02.505Z",
+      "lastPushTimeStamp": "2022-01-29T23:25:23.675Z",
       "output": {
         "PartitionKeyName": "firstlast",
         "Region": "us-east-1",
@@ -29,7 +29,7 @@
         "PartitionKeyType": "S",
         "Name": "weddingDB-dev"
       },
-      "lastPushDirHash": "ivQ+QkQ3bbeke+JfeW0p1xM6slc="
+      "lastPushDirHash": "MNxBtHQIEc3Gil/r4dG1PkNUSYc="
     }
   },
   "function": {
@@ -47,25 +47,25 @@
           ]
         }
       ],
-      "lastBuildTimeStamp": "2022-01-27T02:50:57.436Z",
-      "lastPackageTimeStamp": "2022-01-27T02:50:58.314Z",
-      "distZipFilename": "weddingLambda-6469364830306b46722b-build.zip",
+      "lastBuildTimeStamp": "2022-01-29T23:24:16.532Z",
+      "lastPackageTimeStamp": "2022-01-29T23:24:19.163Z",
+      "distZipFilename": "weddingLambda-6a534562396871314947-build.zip",
       "s3Bucket": {
         "deploymentBucketName": "amplify-weddingapp-dev-182128-deployment",
-        "s3Key": "amplify-builds/weddingLambda-6469364830306b46722b-build.zip"
+        "s3Key": "amplify-builds/weddingLambda-6a534562396871314947-build.zip"
       },
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/function/weddingLambda-cloudformation-template.json",
         "logicalId": "functionweddingLambda"
       },
-      "lastPushTimeStamp": "2022-01-27T02:52:02.545Z",
+      "lastPushTimeStamp": "2022-01-29T23:25:23.675Z",
       "output": {
         "Region": "us-east-1",
         "Arn": "arn:aws:lambda:us-east-1:569758639273:function:weddingLambda-dev",
         "Name": "weddingLambda-dev",
         "LambdaExecutionRole": "weddingappLambdaRoleade4c290-dev"
       },
-      "lastPushDirHash": "DGXrztk/gFOlfiFb2Mry9Z/pxjk="
+      "lastPushDirHash": "ED6HtARTe6ARW1I4BooDmMl09Kk="
     }
   },
   "api": {
@@ -86,13 +86,13 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/api/weddingAPI-cloudformation-template.json",
         "logicalId": "apiweddingAPI"
       },
-      "lastPushTimeStamp": "2022-01-27T02:52:02.531Z",
+      "lastPushTimeStamp": "2022-01-29T23:25:23.675Z",
       "output": {
         "ApiName": "weddingAPI",
         "RootUrl": "https://bdi7egn1mi.execute-api.us-east-1.amazonaws.com/dev",
         "ApiId": "bdi7egn1mi"
       },
-      "lastPushDirHash": "iVdN1YMEmdz5y+2KFBikmz38hEs="
+      "lastPushDirHash": "IX8RfUJPG91MeD+tg2KT9h72h7Y="
     }
   }
 }

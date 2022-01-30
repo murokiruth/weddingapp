@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { Nav, NavCont, NavMenu, NavLogo, NavItem, NavLink, MobileIcon } from './NavBarElements';
+import {
+	Nav,
+	NavCont,
+	NavMenu,
+	NavLogo,
+	NavItem,
+	NavLink,
+	MobileIcon,
+} from './NavBarElements';
 import { animateScroll as scroll } from 'react-scroll';
 import { GiLoveMystery } from 'react-icons/gi';
 import '../../App.css';
@@ -28,7 +36,7 @@ const NavBar = ({ toggle }) => {
 			<Nav scrollNav={scrollNav}>
 				<NavCont>
 					<NavLogo>
-						<GiLoveMystery to='/' onclick={toggleHome} />
+						<GiLoveMystery to="/" onClick={toggleHome} />
 					</NavLogo>
 
 					<MobileIcon onClick={toggle}>
@@ -37,44 +45,79 @@ const NavBar = ({ toggle }) => {
 
 					<NavMenu>
 						<NavItem>
-							{/* <GiLoveMystery className='loveIcon' /> */}
-							<NavLink to='story' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
+							<NavLink
+								to="story"
+								smooth={true}
+								duration={500}
+								spy={true}
+								offset={-80}
+								exact="true"
+							>
 								{' '}
 								Our Story{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							{/* <GiLoveMystery className='loveIcon' /> */}
-							<NavLink to='details' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
+							<NavLink
+								to="details"
+								smooth={true}
+								duration={500}
+								spy={true}
+								offset={-80}
+								exact="true"
+							>
 								{' '}
 								Details{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							{/* <GiLoveMystery className='loveIcon' /> */}
-							<NavLink to='rsvp' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
+							<NavLink
+								to="rsvp"
+								smooth={true}
+								duration={500}
+								spy={true}
+								offset={-80}
+								exact="true"
+							>
 								{' '}
 								RSVP{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							{/* <GiLoveMystery className='loveIcon' /> */}
-							<NavLink to='party' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+							<NavLink
+								to="party"
+								smooth={true}
+								duration={500}
+								spy={true}
+								exact="true"
+								offset={-80}
+							>
 								{' '}
 								Wedding Party{' '}
 							</NavLink>
 						</NavItem>
 
 						<NavItem>
-							{/* <GiLoveMystery className='loveIcon' /> */}
-							<NavLink to='memories' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
+							<NavLink
+								to="memories"
+								smooth={true}
+								duration={500}
+								spy={true}
+								offset={-80}
+								exact="true"
+							>
 								{' '}
 								Memories{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							{/* <GiLoveMystery className='loveIcon' /> */}
-							<NavLink to='registry' smooth={true} duration={500} spy={true} offset={-50}>
+							<NavLink
+								to="registry"
+								smooth={true}
+								duration={500}
+								spy={true}
+								offset={-50}
+							>
 								{' '}
 								Registry{' '}
 							</NavLink>

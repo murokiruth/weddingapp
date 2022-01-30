@@ -1,5 +1,12 @@
 import React from 'react';
-import { MobileNavCont, Icon, CloseIcon, MobileNavWrapper, MobileNavMenu, MobileNavLink } from './MobileNavElements';
+import {
+	MobileNavCont,
+	Icon,
+	CloseIcon,
+	MobileNavWrapper,
+	MobileNavMenu,
+	MobileNavLink,
+} from './MobileNavElements';
 
 const MobileNav = ({ isOpen, toggle }) => {
 	return (
@@ -9,29 +16,30 @@ const MobileNav = ({ isOpen, toggle }) => {
 			</Icon>
 			<MobileNavWrapper>
 				<MobileNavMenu>
-					<MobileNavLink to='story' onClick={toggle}>
+					<MobileNavLink to="story" onClick={toggle}>
 						{' '}
-						About{' '}
+						Our Story{' '}
 					</MobileNavLink>
-					<MobileNavLink to='details' onClick={toggle}>
+					<MobileNavLink to="details" onClick={toggle}>
 						{' '}
-						Solutions{' '}
+						Details{' '}
 					</MobileNavLink>
-					<MobileNavLink to='party' onClick={toggle}>
+					<MobileNavLink to="rsvp" onClick={toggle}>
 						{' '}
-						Towing{' '}
+						RSVP{' '}
 					</MobileNavLink>
-					<MobileNavLink to='rsvp' onClick={toggle}>
+					<MobileNavLink to="party" onClick={toggle}>
 						{' '}
-						Contact Us{' '}
+						Wedding Party{' '}
 					</MobileNavLink>
-					<MobileNavLink to='memories' onClick={toggle}>
+
+					<MobileNavLink to="memories" onClick={toggle}>
 						{' '}
-						Contact Us{' '}
+						Memories{' '}
 					</MobileNavLink>
-					<MobileNavLink to='registry' onClick={toggle}>
+					<MobileNavLink to="registry" onClick={toggle}>
 						{' '}
-						Contact Us{' '}
+						Registry{' '}
 					</MobileNavLink>
 				</MobileNavMenu>
 			</MobileNavWrapper>

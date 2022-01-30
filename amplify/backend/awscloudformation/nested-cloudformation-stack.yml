@@ -86,7 +86,7 @@
         "TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/function/weddingLambda-cloudformation-template.json",
         "Parameters": {
           "deploymentBucketName": "amplify-weddingapp-dev-182128-deployment",
-          "s3Key": "amplify-builds/weddingLambda-6469364830306b46722b-build.zip",
+          "s3Key": "amplify-builds/weddingLambda-6a534562396871314947-build.zip",
           "storageweddingDBName": {
             "Fn::GetAtt": [
               "storageweddingDB",

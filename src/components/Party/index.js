@@ -1,24 +1,32 @@
 import React from 'react';
-import { PartyCont, PartyH1, PartyWrapper, PartyCard, PartyImage, PartyName, Title } from './PartyElements';
+import {
+	PartyCont,
+	PartyWrapper,
+	PartyCard,
+	PartyImage,
+	PartyName,
+	Title,
+} from './PartyElements';
 import Man1 from '../../images/gent.svg';
-// import Lady from '../../images/lady.svg';
 import Phil from '../../images/300_phil.png';
 import Raphoe from '../../images/300_rapho.png';
 import Dennis from '../../images/300_dennis.png';
-import Mimo from '../../images/mimo.jpg';
-import Mariatu from '../../images/mariatu.jpg';
-import Maggie from '../../images/maggie.jpg';
+import Shem from '../../images/300_shem.png';
+import Chomba from '../../images/300_chomba.png';
+import Mimo from '../../images/300_mimo.png';
+import Mariatu from '../../images/300_mariatu.png';
+import Maggie from '../../images/300_maggie.png';
 import Murugi from '../../images/murugi.jpg';
-import Diana from '../../images/diana.jpg';
-import IvyK from '../../images/ivykungu.jpg';
-import Max from '../../images/max.jpg';
-import Amani from '../../images/amani.jpg';
+import Diana from '../../images/300_diana.png';
+import IvyK from '../../images/300_kungu.png';
+import Max from '../../images/300_max.png';
+import Amani from '../../images/300_amani.png';
 
 const Party = () => {
 	return (
 		<>
-			<PartyCont id='party'>
-				<PartyH1> Bridal Party</PartyH1>
+			<PartyCont id="party">
+				<h1 className="text-4xl pb-8"> Wedding Party</h1>
 				<PartyWrapper>
 					<PartyCard>
 						<PartyImage src={Man1} />
@@ -41,12 +49,12 @@ const Party = () => {
 						<Title>Groomsman</Title>
 					</PartyCard>
 					<PartyCard>
-						<PartyImage src={Man1} />
+						<PartyImage src={Shem} />
 						<PartyName> Shem Juma </PartyName>
 						<Title>Groomsman</Title>
 					</PartyCard>
 					<PartyCard>
-						<PartyImage src={Man1} />
+						<PartyImage src={Chomba} />
 						<PartyName> Moses Chomba </PartyName>
 						<Title>Groomsman</Title>
 					</PartyCard>

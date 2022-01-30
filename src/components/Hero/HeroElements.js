@@ -9,7 +9,6 @@ export const HeroCont = styled.div`
 	height: 700px;
 	position: relative;
 	z-index: 1;
-	border: 2px solid purple;
 
 	@media screen and (max-width: 500px) {
 		height: 300px;

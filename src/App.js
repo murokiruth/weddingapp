@@ -1,14 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages';
-import Image from './images/redrosesbackground.png';
 
 function App() {
 	return (
-		<div styles={{ backgroundImage: `url(${Image})` }}>
+		<div>
 			<Router>
 				<Switch>
-					<Route path='/' component={Home} exact />
+					<Route path="/" component={Home} exact />
 				</Switch>
 			</Router>
 		</div>

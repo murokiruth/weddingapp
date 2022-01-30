@@ -3,7 +3,7 @@ import { Link as LinkScroll } from 'react-scroll';
 import { Link as LinkRouter } from 'react-router-dom';
 
 export const Nav = styled.div`
-	background: ${({ scrollNav }) => (scrollNav ? '#2D2A39 ' : 'Tranparent')};
+	background: ${({ scrollNav }) => (scrollNav ? '#384861' : 'Tranparent')};
 	height: 80px;
 	margin-top: -80px;
 
@@ -14,7 +14,6 @@ export const Nav = styled.div`
 	position: sticky;
 	top: 0;
 	z-index: 10;
-	border: 2px solid purple;
 
 	@media screen and (max-width: 960px) {
 		transition: 0.8s all;

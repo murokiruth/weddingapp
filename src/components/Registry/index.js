@@ -1,15 +1,20 @@
 import React from 'react';
-import { RegistryCont, RegistryWrapper, RegistryH, RegistryH3, RegistryP } from './RegistryElements';
+import {
+	RegistryCont,
+	RegistryWrapper,
+	RegistryH3,
+	RegistryP,
+} from './RegistryElements';
 
 const Registry = () => {
 	return (
 		<>
-			<RegistryCont id='registry'>
+			<RegistryCont id="registry">
 				<RegistryWrapper>
-					<RegistryH>Registry</RegistryH>
+					<h1 className="text-4xl">Registry</h1>
 					<RegistryP>
-						Your presence at our wedding is all that we wish for, however, if you want to give a gift, we will be
-						grateful for a cash gift.
+						Your presence at our wedding is all that we wish for, however, if
+						you want to give a gift, we will be grateful for a cash gift.
 					</RegistryP>
 					<RegistryP>
 						<RegistryH3>Bank: Discover</RegistryH3>
