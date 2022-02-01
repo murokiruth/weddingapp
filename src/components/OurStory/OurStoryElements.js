@@ -7,7 +7,6 @@ export const StoryCont = styled.div`
 	//height: 200px;
 	width: 100%;
 	text-align: center;
-	margin: 15px 0px;
 	padding: 10px;
 
 	@media screen and (max-width: 1100px) {
@@ -15,7 +14,6 @@ export const StoryCont = styled.div`
 `;
 
 export const StoryP = styled.p`
-	/* color: #3a3939; */
 	color: #000;
 	line-height: 1.5;
 	padding: 10px 50px;

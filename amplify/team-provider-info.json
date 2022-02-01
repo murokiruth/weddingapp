@@ -17,6 +17,12 @@
           "deploymentBucketName": "amplify-weddingapp-dev-182128-deployment",
           "s3Key": "amplify-builds/weddingLambda-6a534562396871314947-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3izgz97yll7tr",
+          "type": "cicd"
+        }
       }
     }
   }

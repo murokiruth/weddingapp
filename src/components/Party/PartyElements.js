@@ -6,20 +6,9 @@ export const PartyCont = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 15px 0px;
-	padding: 30px 0px;
-	background: rgb(241 245 249);
-
-	@media screen and (max-width: 1000px) {
-		/* height: 1200px; */
-	}
-	@media screen and (max-width: 480px) {
-		/* height: 1400px; */
-	}
 `;
 
 export const PartyWrapper = styled.div`
-	/* max-width: 1000px; */
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -55,13 +44,21 @@ export const PartyCard = styled.div`
 	&:hover {
 		transform: scale(1.02);
 		transition: all 0.2s ease-in-out;
-		cursor: pointer;
+	}
+
+	@media screen and (max-width: 575.98px) {
+		width: 340px;
+		min-height: 300px;
 	}
 `;
 export const PartyImage = styled.img`
 	max-width: 200px;
 	height: 200px;
 	margin-bottom: 10px;
+	@media screen and (max-width: 575.98px) {
+		max-width: 300px;
+		height: 300px;
+	}
 `;
 export const PartyName = styled.h5`
 	color: #000;

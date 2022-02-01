@@ -20,7 +20,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/storage/weddingDB-cloudformation-template.json",
         "logicalId": "storageweddingDB"
       },
-      "lastPushTimeStamp": "2022-01-29T23:25:23.675Z",
+      "lastPushTimeStamp": "2022-02-01T14:47:03.059Z",
       "output": {
         "PartitionKeyName": "firstlast",
         "Region": "us-east-1",
@@ -47,8 +47,8 @@
           ]
         }
       ],
-      "lastBuildTimeStamp": "2022-01-29T23:24:16.532Z",
-      "lastPackageTimeStamp": "2022-01-29T23:24:19.163Z",
+      "lastBuildTimeStamp": "2022-02-01T14:46:26.090Z",
+      "lastPackageTimeStamp": "2022-02-01T14:46:28.978Z",
       "distZipFilename": "weddingLambda-6a534562396871314947-build.zip",
       "s3Bucket": {
         "deploymentBucketName": "amplify-weddingapp-dev-182128-deployment",
@@ -58,7 +58,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/function/weddingLambda-cloudformation-template.json",
         "logicalId": "functionweddingLambda"
       },
-      "lastPushTimeStamp": "2022-01-29T23:25:23.675Z",
+      "lastPushTimeStamp": "2022-02-01T14:47:03.093Z",
       "output": {
         "Region": "us-east-1",
         "Arn": "arn:aws:lambda:us-east-1:569758639273:function:weddingLambda-dev",
@@ -86,13 +86,20 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingapp-dev-182128-deployment/amplify-cfn-templates/api/weddingAPI-cloudformation-template.json",
         "logicalId": "apiweddingAPI"
       },
-      "lastPushTimeStamp": "2022-01-29T23:25:23.675Z",
+      "lastPushTimeStamp": "2022-02-01T14:47:03.078Z",
       "output": {
         "ApiName": "weddingAPI",
         "RootUrl": "https://bdi7egn1mi.execute-api.us-east-1.amazonaws.com/dev",
         "ApiId": "bdi7egn1mi"
       },
       "lastPushDirHash": "IX8RfUJPG91MeD+tg2KT9h72h7Y="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2022-02-01T14:45:10.454Z"
     }
   }
 }

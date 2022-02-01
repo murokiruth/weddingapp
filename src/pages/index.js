@@ -8,6 +8,8 @@ import Party from '../components/Party';
 import Registry from '../components/Registry';
 import Footer from '../components/Footer';
 import GuestForm from '../components/GuestForm';
+// import Loader from '../components/Loader';
+import Slider from '../components/Slider';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +26,10 @@ const Home = () => {
 			<Details />
 			<GuestForm />
 			<Party />
+			<Slider />
 			<Registry />
 			<Footer />
+			{/* <Loader /> */}
 		</>
 	);
 };

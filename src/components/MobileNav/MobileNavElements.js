@@ -19,7 +19,7 @@ export const MobileNavCont = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-	color: red;
+	color: white;
 `;
 
 export const Icon = styled.div`

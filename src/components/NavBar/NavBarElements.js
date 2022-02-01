@@ -6,8 +6,6 @@ export const Nav = styled.div`
 	background: ${({ scrollNav }) => (scrollNav ? '#384861' : 'Tranparent')};
 	height: 80px;
 	margin-top: -80px;
-
-	/* width: 100%; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -36,13 +34,11 @@ export const NavLogo = styled(LinkRouter)`
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	/* margin-left: 24px; */
-	font-size: 22px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 2em;
 	text-decoration: none;
 
 	@media screen and (max-width: 890px) {
-		font-size: 18px;
+		font-size: 2em;
 	}
 `;
 
@@ -51,7 +47,6 @@ export const NavMenu = styled.ul`
 	align-items: center;
 	list-style: none;
 	text-align: center;
-	/* margin-right: 100px; */
 
 	@media screen and (max-width: 768px) {
 		display: none;
@@ -82,6 +77,7 @@ export const MobileIcon = styled.div`
 		position: absolute;
 		top: 0;
 		right: 0;
+		font-size: 2em;
 		transform: translate(-100%, 60%);
 		cursor: pointer;
 		color: #fff;

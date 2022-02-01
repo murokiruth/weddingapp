@@ -6,7 +6,9 @@ const Footer = () => {
 		<>
 			<FooterCont>
 				<FooterWrapper>
-					<WebsiteRights>SidSonnie © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+					<WebsiteRights>
+						The Owallahs © {new Date().getFullYear()} All rights reserved.
+					</WebsiteRights>
 				</FooterWrapper>
 			</FooterCont>
 		</>

@@ -25,82 +25,84 @@ import Amani from '../../images/300_amani.png';
 const Party = () => {
 	return (
 		<>
-			<PartyCont id="party">
-				<h1 className="text-4xl pb-8"> Wedding Party</h1>
-				<PartyWrapper>
-					<PartyCard>
-						<PartyImage src={Man1} />
-						<PartyName> Brian Chibole </PartyName>
-						<Title>BestMan</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Dennis} />
-						<PartyName> Dennis Macharia </PartyName>
-						<Title>Groomsman</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Phil} />
-						<PartyName> Philip Kerimah </PartyName>
-						<Title>Groomsman</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Raphoe} />
-						<PartyName> Raphael Mwangi </PartyName>
-						<Title>Groomsman</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Shem} />
-						<PartyName> Shem Juma </PartyName>
-						<Title>Groomsman</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Chomba} />
-						<PartyName> Moses Chomba </PartyName>
-						<Title>Groomsman</Title>
-					</PartyCard>
+			<section className="flex flex-col justify-center items-center px-8 py-16 bg-gray-200">
+				<PartyCont id="party">
+					<h1 className="text-4xl pb-16"> Wedding Party</h1>
+					<PartyWrapper>
+						<PartyCard>
+							<PartyImage src={Man1} />
+							<PartyName> Brian Chibole </PartyName>
+							<Title>BestMan</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Dennis} />
+							<PartyName> Dennis Macharia </PartyName>
+							<Title>Groomsman</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Phil} />
+							<PartyName> Philip Kerimah </PartyName>
+							<Title>Groomsman</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Raphoe} />
+							<PartyName> Raphael Mwangi </PartyName>
+							<Title>Groomsman</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Shem} />
+							<PartyName> Shem Juma </PartyName>
+							<Title>Groomsman</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Chomba} />
+							<PartyName> Moses Chomba </PartyName>
+							<Title>Groomsman</Title>
+						</PartyCard>
 
-					<PartyCard>
-						<PartyImage src={Murugi} />
-						<PartyName> Essy Murugi </PartyName>
-						<Title>Maid of honor</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Mimo} />
-						<PartyName> Ivy Kimani </PartyName>
-						<Title>Bridesmaid</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Mariatu} />
-						<PartyName>Mariatu Hendricks</PartyName>
-						<Title>Bridesmaid</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Maggie} />
-						<PartyName>Maggie Karanga</PartyName>
-						<Title>Bridesmaid</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Diana} />
-						<PartyName>Diana Nzau </PartyName>
-						<Title>Bridesmaid</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={IvyK} />
-						<PartyName>Ivy Kungu </PartyName>
-						<Title>Bridesmaid</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Max} />
-						<PartyName> Max </PartyName>
-						<Title>Pageboy</Title>
-					</PartyCard>
-					<PartyCard>
-						<PartyImage src={Amani} />
-						<PartyName> Amani Howell </PartyName>
-						<Title>Flowergirl</Title>
-					</PartyCard>
-				</PartyWrapper>
-			</PartyCont>
+						<PartyCard>
+							<PartyImage src={Murugi} />
+							<PartyName> Essy Murugi </PartyName>
+							<Title>Maid of honor</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Mimo} />
+							<PartyName> Ivy Kimani </PartyName>
+							<Title>Bridesmaid</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Mariatu} />
+							<PartyName>Mariatu Hendricks</PartyName>
+							<Title>Bridesmaid</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Maggie} />
+							<PartyName>Maggie Karanga</PartyName>
+							<Title>Bridesmaid</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Diana} />
+							<PartyName>Diana Nzau </PartyName>
+							<Title>Bridesmaid</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={IvyK} />
+							<PartyName>Ivy Kungu </PartyName>
+							<Title>Bridesmaid</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Max} />
+							<PartyName> Max </PartyName>
+							<Title>Pageboy</Title>
+						</PartyCard>
+						<PartyCard>
+							<PartyImage src={Amani} />
+							<PartyName> Amani Howell </PartyName>
+							<Title>Flowergirl</Title>
+						</PartyCard>
+					</PartyWrapper>
+				</PartyCont>
+			</section>
 		</>
 	);
 };

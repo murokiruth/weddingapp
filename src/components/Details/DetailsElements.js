@@ -4,8 +4,7 @@ export const DetailsCont = styled.div`
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	margin: 15px 0px;
-	padding: 30px 10px;
+	padding: 50px 10px;
 	text-align: center;
 	background-color: #384861;
 	color: lavenderblush;
@@ -19,8 +18,6 @@ export const DetailsWrapper = styled.div`
 `;
 export const DetailsCard = styled.div`
 	padding: 10px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `;
 export const DetailsH3 = styled.h3``;
 export const DetailsP = styled.p`
