@@ -60,11 +60,11 @@ export const HeroContent = styled.div`
 
 	@media screen and (max-width: 480px) {
 		left: 0;
+		top: 25%;
 	}
 `;
 
 export const HeroH1 = styled.h1`
-	/* color: #b85c65; */
 	font-size: 7rem;
 	display: flex;
 	color: #fff0f5;
@@ -80,6 +80,6 @@ export const HeroH1 = styled.h1`
 		font-size: 4rem;
 	}
 	@media screen and (max-width: 500px) {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 `;
