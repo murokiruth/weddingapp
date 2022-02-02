@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const FooterCont = styled.footer`
 	background: #384861;
-	height: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -15,8 +14,3 @@ export const FooterCont = styled.footer`
 `;
 
 export const FooterWrapper = styled.footer``;
-
-export const WebsiteRights = styled.small`
-	color: #fff;
-	margin-bottom: 16px;
-`;

@@ -19,10 +19,3 @@ export const DetailsWrapper = styled.div`
 export const DetailsCard = styled.div`
 	padding: 10px;
 `;
-export const DetailsH3 = styled.h3``;
-export const DetailsP = styled.p`
-	line-height: 1.5;
-	padding: 10px;
-`;
-export const Venue = styled.h4``;
-export const Date = styled.h4``;

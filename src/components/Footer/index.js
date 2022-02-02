@@ -1,14 +1,14 @@
 import React from 'react';
-import { FooterCont, FooterWrapper, WebsiteRights } from './FooterElements';
+import { FooterCont, FooterWrapper } from './FooterElements';
 
 const Footer = () => {
 	return (
 		<>
 			<FooterCont>
 				<FooterWrapper>
-					<WebsiteRights>
-						The Owallahs © {new Date().getFullYear()} All rights reserved.
-					</WebsiteRights>
+					<p className="p-8 text-base text-white text-justify">
+						Made with 💖 by The Owallahs © {new Date().getFullYear()}
+					</p>
 				</FooterWrapper>
 			</FooterCont>
 		</>

@@ -7,10 +7,9 @@ const Registry = () => {
 			<RegistryCont id="registry">
 				<RegistryWrapper>
 					<h1 className="text-4xl pb-8">Registry</h1>
-					<p className="pb-4">
-						Your presence at our wedding is all that we wish for, however,{' '}
-						<br />
-						if you want to give a gift, we will be grateful for a cash gift.
+					<p className="pb-4 text-lg">
+						Your presence at our wedding is all that we wish for. However, if
+						you want to give a gift, we will be grateful for a cash gift.
 					</p>
 
 					<p>

@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-	DetailsCont,
-	DetailsWrapper,
-	DetailsCard,
-	DetailsH3,
-	Date,
-	Venue,
-	DetailsP,
-} from './DetailsElements';
+import { DetailsCont, DetailsWrapper, DetailsCard } from './DetailsElements';
 
 const Details = () => {
 	return (
@@ -16,15 +8,20 @@ const Details = () => {
 				<h1 className="text-4xl pb-8"> Our Wedding Day </h1>
 				<DetailsWrapper>
 					<DetailsCard>
-						<DetailsH3>Date and Time </DetailsH3>
-						<Date> April 21st 2022 at 3pm CST</Date>
-						<DetailsH3> Ceremony</DetailsH3>
-						<Venue>Ashton Gardens</Venue>
-						<DetailsP>
-							Both the ceremony and reception will be at this location. The
-							Ceremony at the chapel onSite and the reception at the main
+						<p className="text-lg pb-4">
+							Date and Time
+							<br />
+							April 21st 2022 at 3pm CST
+							<br />
+							Ceremony
+							<br />
+							Ashton Gardens
+						</p>
+						<p className="text-lg pb-4">
+							Both the ceremony and reception will be at this location. <br />{' '}
+							The Ceremony at the chapel onSite and the reception at the main
 							building.
-						</DetailsP>
+						</p>
 						<address>2001 Ashton Gardens Ln, Corinth, TX 76210</address>
 					</DetailsCard>
 				</DetailsWrapper>

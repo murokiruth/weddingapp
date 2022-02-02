@@ -7,7 +7,7 @@ import Details from '../components/Details';
 import Party from '../components/Party';
 import Registry from '../components/Registry';
 import Footer from '../components/Footer';
-import GuestForm from '../components/GuestForm';
+import Rsvp from '../components/Rsvp';
 // import Loader from '../components/Loader';
 import Slider from '../components/Slider';
 
@@ -24,7 +24,7 @@ const Home = () => {
 			<Hero />
 			<OurStory />
 			<Details />
-			<GuestForm />
+			<Rsvp />
 			<Party />
 			<Slider />
 			<Registry />
