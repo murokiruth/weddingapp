@@ -116,7 +116,7 @@ const NavBar = ({ toggle }) => {
 								smooth={true}
 								duration={500}
 								spy={true}
-								offset={-50}
+								offset={-80}
 							>
 								{' '}
 								Registry{' '}

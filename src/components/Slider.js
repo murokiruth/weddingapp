@@ -8,8 +8,11 @@ import one from '../images/slider/proposal.png';
 import two from '../images/slider/orleans.png';
 import three from '../images/slider/beach.png';
 import four from '../images/slider/lake.png';
+import five from '../images/slider/xmas.png';
+import six from '../images/slider/seattleferry.png';
+import seven from '../images/slider/seattle.png';
 
-const images = [one, two, three, four];
+const images = [one, two, three, four, five, six, seven];
 
 export default function Carousel() {
 	const [imageIndex, setImageIndex] = useState(0);
@@ -44,6 +47,9 @@ export default function Carousel() {
 
 	return (
 		<section className="justify-center items-center px-8 py-16 bg-gray-700">
+			<h1 id="rsvp" className="text-4xl text-center pb-16 text-white p-2">
+				Memories
+			</h1>
 			<div id="memories" className="">
 				<Slider {...sliderSettings}>
 					{images.map((img, idx) => (

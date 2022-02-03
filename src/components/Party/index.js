@@ -16,7 +16,7 @@ import Chomba from '../../images/300_chomba.png';
 import Mimo from '../../images/300_mimo.png';
 import Mariatu from '../../images/300_mariatu.png';
 import Maggie from '../../images/300_maggie.png';
-import Murugi from '../../images/murugi.jpg';
+import Murugi from '../../images/300_murugi.png';
 import Diana from '../../images/300_diana.png';
 import IvyK from '../../images/300_kungu.png';
 import Max from '../../images/300_max.png';

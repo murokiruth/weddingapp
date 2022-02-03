@@ -80,6 +80,6 @@ export const HeroH1 = styled.h1`
 		font-size: 4rem;
 	}
 	@media screen and (max-width: 500px) {
-		font-size: 3rem;
+		font-size: 3.4rem;
 	}
 `;

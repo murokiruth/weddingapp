@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Link as LinkScroll } from 'react-scroll';
-import { Link as LinkRouter } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
 
 export const MobileNavCont = styled.aside`
@@ -8,7 +7,7 @@ export const MobileNavCont = styled.aside`
 	z-index: 999;
 	width: 100%;
 	height: 100%;
-	background: #2d2a39;
+	background: #384861;
 	display: grid;
 	align-items: center;
 	top: 0;
@@ -60,60 +59,6 @@ export const MobileNavLink = styled(LinkScroll)`
 
 	&:hover {
 		color: #04afa1;
-		transition: 0.2s ease-in-out;
-	}
-`;
-
-export const SideBtnWrap = styled.div`
-	display: flex;
-	justify-content: center;
-`;
-
-export const MobileNavRoute = styled(LinkRouter)`
-	border-radius: 50px;
-	background: yellow;
-	white-space: nowrap;
-	padding: 16px 64px;
-	color: #fff;
-	font-size: 16px;
-	outline: none;
-	border: none;
-	cursor: pointer;
-	transition: all 0.2s ease-in-out;
-	text-decoration: none;
-
-	&:hover {
-		transition: all 0.2s ease-in-out;
-		background: #fff;
-		color: #04afa1;
-	}
-`;
-
-export const DocuLink = styled.a`
-	color: #fff;
-	font-size: 18px;
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	padding: 0 1rem;
-	height: 100%;
-	cursor: pointer;
-`;
-
-export const MobileNavItem = styled.li`
-	height: 80px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	list-style: none;
-	transition: 0.2s ease-in-out;
-	color: #fff;
-	font-size: 20px;
-	cursor: pointer;
-
-	&:hover {
-		color: #04afa1;
-		transition: 0.2s ease-in-out;
+		transition: 0.3s ease-in-out;
 	}
 `;
