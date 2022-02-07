@@ -23,7 +23,7 @@ const Details = () => {
 						</p>
 						<address className='text-lg pb-4'>2001 Ashton Gardens Ln, Corinth, TX 76210</address>
 						<p className='text-lg pb-4'>
-							<b>Guests Hotel</b>
+							Guests Hotel
 							<br />
 							<a href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1642187758971&key=GRP&app=resvlink'>
 								Click here for hotel group rate

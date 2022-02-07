@@ -46,12 +46,17 @@ export default function Carousel() {
 	};
 
 	return (
-		<section className='justify-center items-center px-8 py-16 bg-gray-700' id='memories'>
-			<h1 className='text-4xl text-center pb-16 text-white p-2'>Memories</h1>
-			<div className=''>
+		<section className="justify-center items-center px-8 py-16 bg-gray-700">
+			<h1 id="rsvp" className="text-4xl text-center pb-16 text-white p-2">
+				Memories
+			</h1>
+			<div id="memories" className="">
 				<Slider {...sliderSettings}>
 					{images.map((img, idx) => (
-						<div key={idx} className={idx === imageIndex ? 'slide activeSlide' : 'slide'}>
+						<div
+							key={idx}
+							className={idx === imageIndex ? 'slide activeSlide' : 'slide'}
+						>
 							<img key={idx} src={img} alt={img} />
 						</div>
 					))}

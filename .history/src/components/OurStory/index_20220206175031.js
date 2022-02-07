@@ -3,8 +3,8 @@ import { StoryCont } from './OurStoryElements';
 
 const Story = () => {
 	return (
-		<section className='flex flex-col justify-center items-center px-8 py-16' id='story'>
-			<StoryCont>
+		<section className='flex flex-col justify-center items-center px-8 py-16'>
+			<StoryCont id='story'>
 				<h1 className='text-4xl pb-8 text-center'>Our Story</h1>
 				<p className='pb-6 text-lg'>
 					Sidney and Sonnie first met over 5 years ago 🤝 through a mutual friend at a night out celebrating Sonnie's

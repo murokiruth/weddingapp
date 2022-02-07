@@ -21,14 +21,7 @@ const Details = () => {
 							Both the ceremony and reception will be at this location. <br /> The Ceremony at the chapel onSite and the
 							reception at the main building.
 						</p>
-						<address className='text-lg pb-4'>2001 Ashton Gardens Ln, Corinth, TX 76210</address>
-						<p className='text-lg pb-4'>
-							<b>Guests Hotel</b>
-							<br />
-							<a href='https://www.marriott.com/event-reservations/reservation-link.mi?id=1642187758971&key=GRP&app=resvlink'>
-								Click here for hotel group rate
-							</a>
-						</p>
+						<address>2001 Ashton Gardens Ln, Corinth, TX 76210</address>
 					</DetailsCard>
 				</DetailsWrapper>
 			</DetailsCont>
