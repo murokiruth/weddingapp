@@ -19,25 +19,24 @@ const Rsvp = () => {
 		firstName: '',
 		lastName: '',
 		rsvp: 'no',
-		guests: '0',
+		guests: '2',
 	});
 
 	useEffect(() => {
 		setRsvpRecieved(guest.responded);
 		setPartyNum(guest.guests);
 		setRsvp(() => rsvp);
+		setFormState(() => formState);
 	}, [rsvp, guest, formState]);
 
 	let partyOption = [
-		{ label: '2', value: 2 },
-		{ label: '1', value: 1 },
+		{ id: 2, value: '2' },
+		{ id: 1, value: '1' },
 	];
 
 	const handleRsvpChange = (e) => {
-		let name = e.target.name;
-		let value = e.target.value;
-		formState[name] = value;
-		setFormState(formState);
+		const { name, value } = e.target;
+		setFormState((formState) => ({ ...formState, [name]: value }));
 
 		const target = e.target;
 		if (target.checked) {
@@ -46,29 +45,32 @@ const Rsvp = () => {
 	};
 
 	const handleRsvpSubmit = async (e) => {
-		let guestname =
-			formState.firstName.split(' ').join('').toLowerCase() +
-			'_' +
-			formState.lastName.split(' ').join('').toLowerCase();
-
 		let rsvpd = false;
+		let guestCount = '';
+
 		if (formState.rsvp === 'yes') {
 			rsvpd = true;
+			guestCount = formState.guests;
 		} else {
 			rsvpd = false;
+			guestCount = '0';
 		}
 
 		const data = {
 			body: {
-				firstlast: guestname,
+				firstlast: guest.firstlast,
 				firstName: formState.firstName,
 				lastName: formState.lastName,
 				rsvp: rsvpd,
-				guests: parseInt(formState.guests),
+				guests: parseInt(guestCount),
 			},
 		};
 
-		const response = await API.post('weddingAPI', `/guests/${guestname}`, data);
+		const response = await API.post(
+			'weddingAPI',
+			`/guests/${guest.firstlast}`,
+			data
+		);
 
 		if (response.statusCode === 200) {
 			setRsvpSubmitted(true);
@@ -86,9 +88,9 @@ const Rsvp = () => {
 		e.preventDefault();
 		setIsLoading(true);
 		let guestname =
-			formState.firstName.toLowerCase() +
+			formState.firstName.split(' ').join('').toLowerCase() +
 			'_' +
-			formState.lastName.toLowerCase();
+			formState.lastName.split(' ').join('').toLowerCase();
 
 		const response = await API.get('weddingAPI', `/guests/${guestname}`, {});
 
@@ -113,7 +115,7 @@ const Rsvp = () => {
 					role="dialog"
 					aria-modal="true"
 				>
-					<div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+					<div className="flex items-center justify-center h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
 						<div
 							className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
 							aria-hidden="true"
@@ -184,7 +186,7 @@ const Rsvp = () => {
 					role="dialog"
 					aria-modal="true"
 				>
-					<div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+					<div className="flex items-center justify-center h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
 						<div
 							className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
 							aria-hidden="true"
@@ -254,7 +256,7 @@ const Rsvp = () => {
 					role="dialog"
 					aria-modal="true"
 				>
-					<div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+					<div className="flex items-center justify-center h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
 						<div
 							className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
 							aria-hidden="true"
@@ -296,8 +298,8 @@ const Rsvp = () => {
 													{', '}
 												</span>{' '}
 												looks like you already submitted your RSVP. If you would
-												like to change your reservation please email
-												sidsonnie@gmail.com
+												like to change your reservation please text or call{' '}
+												<b>405-480-2243</b>
 											</p>
 										</div>
 									</div>
@@ -333,7 +335,7 @@ const Rsvp = () => {
 				<form
 					className="max-w-md w-full bg-white rounded space-y-4"
 					onSubmit={handleSubmit}
-					autocomplete="off"
+					autoComplete="off"
 				>
 					<div>
 						<input
@@ -378,7 +380,7 @@ const Rsvp = () => {
 										<form
 											className="max-w-md w-96 bg-white rounded pl-6 pr-6 space-y-4"
 											onSubmit={handleRsvpSubmit}
-											autocomplete="off"
+											autoComplete="off"
 										>
 											<div>
 												<input
@@ -456,11 +458,12 @@ const Rsvp = () => {
 														focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
 															aria-label="Number of party selection"
 															name="guests"
+															value={formState.guests}
 															onChange={handleRsvpChange}
 														>
-															{partyOption.map((option, index) => (
-																<option key={index} value={option.value}>
-																	{option.label}
+															{partyOption.map((option) => (
+																<option key={option.id} value={option.value}>
+																	{option.value}
 																</option>
 															))}
 														</select>
