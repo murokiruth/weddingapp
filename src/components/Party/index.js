@@ -1,6 +1,13 @@
 import React from 'react';
-import { PartyCont, PartyWrapper, PartyCard, PartyImage, PartyName, Title } from './PartyElements';
-import Man1 from '../../images/gent.svg';
+import {
+	PartyCont,
+	PartyWrapper,
+	PartyCard,
+	PartyImage,
+	PartyName,
+	Title,
+} from './PartyElements';
+import Brian from '../../images/300_brayo.png';
 import Phil from '../../images/300_phil.png';
 import Raphoe from '../../images/300_rapho.png';
 import Dennis from '../../images/300_dennis.png';
@@ -17,12 +24,15 @@ import Amani from '../../images/300_amani.png';
 
 const Party = () => {
 	return (
-		<section className='flex flex-col justify-center items-center px-8 py-16 bg-gray-200' id='party'>
+		<section
+			className="flex flex-col justify-center items-center px-8 py-16 bg-gray-200"
+			id="party"
+		>
 			<PartyCont>
-				<h1 className='text-4xl pb-16'> Wedding Party</h1>
+				<h1 className="text-4xl pb-16"> Wedding Party</h1>
 				<PartyWrapper>
 					<PartyCard>
-						<PartyImage src={Man1} />
+						<PartyImage src={Brian} />
 						<PartyName> Brian Chibole </PartyName>
 						<Title>BestMan</Title>
 					</PartyCard>
