@@ -7,7 +7,7 @@ import {
 	PartyName,
 	Title,
 } from './PartyElements';
-import Brian from '../../images/300_brayo.png';
+import Drew from '../../images/300_drew.png';
 import Phil from '../../images/300_phil.png';
 import Raphoe from '../../images/300_rapho.png';
 import Dennis from '../../images/300_dennis.png';
@@ -32,9 +32,9 @@ const Party = () => {
 				<h1 className="text-4xl pb-16"> Wedding Party</h1>
 				<PartyWrapper>
 					<PartyCard>
-						<PartyImage src={Brian} />
-						<PartyName> Brian Chibole </PartyName>
-						<Title>BestMan</Title>
+						<PartyImage src={Raphoe} />
+						<PartyName> Raphael Mwangi </PartyName>
+						<Title>Bestman</Title>
 					</PartyCard>
 					<PartyCard>
 						<PartyImage src={Dennis} />
@@ -47,8 +47,8 @@ const Party = () => {
 						<Title>Groomsman</Title>
 					</PartyCard>
 					<PartyCard>
-						<PartyImage src={Raphoe} />
-						<PartyName> Raphael Mwangi </PartyName>
+						<PartyImage src={Drew} />
+						<PartyName> Andrew Chishakwe </PartyName>
 						<Title>Groomsman</Title>
 					</PartyCard>
 					<PartyCard>
