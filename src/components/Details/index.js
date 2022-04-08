@@ -11,7 +11,7 @@ const Details = () => {
 						<p className='text-lg pb-4'>
 							Date and Time
 							<br />
-							April 21st 2022 at 3pm CST
+							April 21st 2022 at 4pm CST
 							<br />
 							Ceremony
 							<br />
