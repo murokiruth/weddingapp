@@ -21,9 +21,9 @@ const Home = () => {
 			<MobileNav isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle} />
 			<Hero />
+			<Seating />
 			<OurStory />
 			<Details />
-			<Seating />
 			<Party />
 			<Slider />
 			<Registry />
