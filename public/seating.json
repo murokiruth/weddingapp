@@ -1,0 +1,664 @@
+{
+	"Seating": [
+		{
+			"FirstName": "Abalo",
+			"LastName": "Latigo",
+			"Table": 10
+		},
+		{
+			"FirstName": "Abraham",
+			"LastName": "Oyewumi",
+			"Table": 8
+		},
+		{
+			"FirstName": "Alex",
+			"LastName": "Karundu",
+			"Table": 5
+		},
+		{
+			"FirstName": "Alice",
+			"LastName": "Koinange",
+			"Table": 2
+		},
+		{
+			"FirstName": "Amina",
+			"LastName": "Chanyika",
+			"Table": 6
+		},
+		{
+			"FirstName": "Anne",
+			"LastName": "Mwaniki",
+			"Table": 10
+		},
+		{
+			"FirstName": "Annie",
+			"LastName": "Mbiyu",
+			"Table": 3
+		},
+		{
+			"FirstName": "Arthur",
+			"LastName": "Kimani",
+			"Table": 7
+		},
+		{
+			"FirstName": "Arthur",
+			"LastName": "Luchuku",
+			"Table": 9
+		},
+		{
+			"FirstName": "Arthur",
+			"LastName": "Mbatia",
+			"Table": 5
+		},
+		{
+			"FirstName": "Ash",
+			"LastName": "Nyangani",
+			"Table": 10
+		},
+		{
+			"FirstName": "Ashley",
+			"LastName": "Mburu",
+			"Table": 14
+		},
+		{
+			"FirstName": "Audrey",
+			"LastName": "Macharia",
+			"Table": 11
+		},
+		{
+			"FirstName": "Bella",
+			"LastName": "Manis",
+			"Table": 2
+		},
+		{
+			"FirstName": "Bella",
+			"LastName": "Watanga",
+			"Table": 4
+		},
+		{
+			"FirstName": "Benson",
+			"LastName": "Kasue",
+			"Table": 13
+		},
+		{
+			"FirstName": "Bonface",
+			"LastName": "Asuluda",
+			"Table": 11
+		},
+		{
+			"FirstName": "Brenda",
+			"LastName": "Ayako",
+			"Table": 9
+		},
+		{
+			"FirstName": "Brixt",
+			"LastName": "Macharia",
+			"Table": 14
+		},
+		{
+			"FirstName": "Christine",
+			"LastName": "Wilson",
+			"Table": 7
+		},
+		{
+			"FirstName": "Cynthia",
+			"LastName": "Boro",
+			"Table": 7
+		},
+		{
+			"FirstName": "Cynthia",
+			"LastName": "Kafwihi",
+			"Table": 13
+		},
+		{
+			"FirstName": "Cynthia",
+			"LastName": "Sprowl",
+			"Table": 6
+		},
+		{
+			"FirstName": "Daniel",
+			"LastName": "Ondari",
+			"Table": 10
+		},
+		{
+			"FirstName": "Darnay",
+			"LastName": "Rose",
+			"Table": 13
+		},
+		{
+			"FirstName": "Demetrese",
+			"LastName": "Waites",
+			"Table": 13
+		},
+		{
+			"FirstName": "Dennis",
+			"LastName": "Macharia",
+			"Table": 7
+		},
+		{
+			"FirstName": "Diana",
+			"LastName": "Nzau",
+			"Table": 7
+		},
+		{
+			"FirstName": "Dorothy",
+			"LastName": "Oloo",
+			"Table": 1
+		},
+		{
+			"FirstName": "Drew",
+			"LastName": "Chishakwe",
+			"Table": 9
+		},
+		{
+			"FirstName": "Edwin",
+			"LastName": "Njau",
+			"Table": 5
+		},
+		{
+			"FirstName": "Elisha",
+			"LastName": "Ayuak",
+			"Table": 1
+		},
+		{
+			"FirstName": "Elsa",
+			"LastName": "Juko-McDowell",
+			"Table": 13
+		},
+		{
+			"FirstName": "Esther",
+			"LastName": "Beans",
+			"Table": 3
+		},
+		{
+			"FirstName": "Esther",
+			"LastName": "Kanyua",
+			"Table": 10
+		},
+		{
+			"FirstName": "Eunice",
+			"LastName": "Kiragu",
+			"Table": 5
+		},
+		{
+			"FirstName": "Evelyn",
+			"LastName": "Mburu",
+			"Table": 8
+		},
+		{
+			"FirstName": "Faith",
+			"LastName": "Mucheru",
+			"Table": 3
+		},
+		{
+			"FirstName": "Fatuma",
+			"LastName": "Chanyika",
+			"Table": 6
+		},
+		{
+			"FirstName": "George",
+			"LastName": "Macharia ",
+			"Table": 11
+		},
+		{
+			"FirstName": "George",
+			"LastName": "Mburu",
+			"Table": 3
+		},
+		{
+			"FirstName": "Gladys",
+			"LastName": "Onditi",
+			"Table": 1
+		},
+		{
+			"FirstName": "Grace",
+			"LastName": "Asuluda",
+			"Table": 4
+		},
+		{
+			"FirstName": "Grace",
+			"LastName": "Njuguna",
+			"Table": 10
+		},
+		{
+			"FirstName": "Grace",
+			"LastName": "Nderitu",
+			"Table": 2
+		},
+		{
+			"FirstName": "Halima",
+			"LastName": "Ndai",
+			"Table": 12
+		},
+		{
+			"FirstName": "Ivy",
+			"LastName": "Kimani",
+			"Table": 12
+		},
+		{
+			"FirstName": "Ivy",
+			"LastName": "Kungu",
+			"Table": 14
+		},
+		{
+			"FirstName": "Jack",
+			"LastName": "Kogera",
+			"Table": 15
+		},
+		{
+			"FirstName": "James",
+			"LastName": "Mwangi",
+			"Table": 11
+		},
+		{
+			"FirstName": "James",
+			"LastName": "Nduati",
+			"Table": 10
+		},
+		{
+			"FirstName": "James",
+			"LastName": "Kimani",
+			"Table": 3
+		},
+		{
+			"FirstName": "Jason",
+			"LastName": "Sprowl",
+			"Table": 6
+		},
+		{
+			"FirstName": "Joan",
+			"LastName": "LeBlanc",
+			"Table": 13
+		},
+		{
+			"FirstName": "Joecyphine",
+			"LastName": "Mucheru Manis ",
+			"Table": 2
+		},
+		{
+			"FirstName": "Joel",
+			"LastName": "Makori",
+			"Table": 4
+		},
+		{
+			"FirstName": "Julie",
+			"LastName": "Onditi",
+			"Table": 1
+		},
+		{
+			"FirstName": "Kate",
+			"LastName": "Jann",
+			"Table": 4
+		},
+		{
+			"FirstName": "Kennedy",
+			"LastName": "Sadia",
+			"Table": 13
+		},
+		{
+			"FirstName": "Kui",
+			"LastName": "Mburu",
+			"Table": 14
+		},
+		{
+			"FirstName": "Lilian",
+			"LastName": "Asuluda",
+			"Table": 11
+		},
+		{
+			"FirstName": "Lilian",
+			"LastName": "Kimani",
+			"Table": 7
+		},
+		{
+			"FirstName": "Lilian",
+			"LastName": "Obwoge",
+			"Table": 9
+		},
+		{
+			"FirstName": "Lilian",
+			"LastName": "Muniu",
+			"Table": 11
+		},
+		{
+			"FirstName": "Lilian",
+			"LastName": "Buliva",
+			"Table": 15
+		},
+		{
+			"FirstName": "Lucy",
+			"LastName": "Kanyangi",
+			"Table": 11
+		},
+		{
+			"FirstName": "Lucy",
+			"LastName": "Robson",
+			"Table": 3
+		},
+		{
+			"FirstName": "Lydia",
+			"LastName": "Owallah",
+			"Table": 1
+		},
+		{
+			"FirstName": "Lydiah",
+			"LastName": "Tate",
+			"Table": 13
+		},
+		{
+			"FirstName": "Margaret",
+			"LastName": "Karanga",
+			"Table": 8
+		},
+		{
+			"FirstName": "Mariatu",
+			"LastName": "Hendricks",
+			"Table": 8
+		},
+		{
+			"FirstName": "Martin",
+			"LastName": "Mand",
+			"Table": 11
+		},
+		{
+			"FirstName": "Marvin",
+			"LastName": "Mburu",
+			"Table": 8
+		},
+		{
+			"FirstName": "Maxwell",
+			"LastName": "Watanga",
+			"Table": 4
+		},
+		{
+			"FirstName": "Millicent",
+			"LastName": "Anigwe",
+			"Table": 2
+		},
+		{
+			"FirstName": "Miriam",
+			"LastName": "Maina",
+			"Table": 5
+		},
+		{
+			"FirstName": "Monicah",
+			"LastName": "Kariuki",
+			"Table": 2
+		},
+		{
+			"FirstName": "Moses",
+			"LastName": "Chomba",
+			"Table": 4
+		},
+		{
+			"FirstName": "Mr.",
+			"LastName": "Buliva",
+			"Table": 15
+		},
+		{
+			"FirstName": "Mumbi",
+			"LastName": "Maina",
+			"Table": 8
+		},
+		{
+			"FirstName": "Murugi",
+			"LastName": "Maina",
+			"Table": 8
+		},
+		{
+			"FirstName": "Murugi",
+			"LastName": "Warutumo",
+			"Table": 8
+		},
+		{
+			"FirstName": "Muthoni Leah",
+			"LastName": "Kariuki",
+			"Table": 2
+		},
+		{
+			"FirstName": "Nancy",
+			"LastName": "Chishakwe",
+			"Table": 9
+		},
+		{
+			"FirstName": "Nancy",
+			"LastName": "Boro",
+			"Table": 3
+		},
+		{
+			"FirstName": "Nelson",
+			"LastName": "Agufwa",
+			"Table": 11
+		},
+		{
+			"FirstName": "Neville",
+			"LastName": "Ratego",
+			"Table": 9
+		},
+		{
+			"FirstName": "Noni",
+			"LastName": "Nderitu",
+			"Table": 6
+		},
+		{
+			"FirstName": "Noreen",
+			"LastName": "Wangui",
+			"Table": 12
+		},
+		{
+			"FirstName": "Olive",
+			"LastName": "Kimotho",
+			"Table": 5
+		},
+		{
+			"FirstName": "Patrick",
+			"LastName": "Ndai",
+			"Table": 12
+		},
+		{
+			"FirstName": "Penny",
+			"LastName": "Kamau",
+			"Table": 5
+		},
+		{
+			"FirstName": "Pete",
+			"LastName": "Hyndman",
+			"Table": 6
+		},
+		{
+			"FirstName": "Philip",
+			"LastName": "Kerimah",
+			"Table": 7
+		},
+		{
+			"FirstName": "Prince",
+			"LastName": "Allen",
+			"Table": 14
+		},
+		{
+			"FirstName": "Priscilla",
+			"LastName": "Nyansera",
+			"Table": 9
+		},
+		{
+			"FirstName": "Priscilla",
+			"LastName": "Kimani",
+			"Table": 3
+		},
+		{
+			"FirstName": "Rachel ",
+			"LastName": "Wallace",
+			"Table": 5
+		},
+		{
+			"FirstName": "Raphael",
+			"LastName": "Mwangi",
+			"Table": 4
+		},
+		{
+			"FirstName": "Robert",
+			"LastName": "Manis",
+			"Table": 2
+		},
+		{
+			"FirstName": "Rockfeller",
+			"LastName": "Madara",
+			"Table": 10
+		},
+		{
+			"FirstName": "Rose",
+			"LastName": "Howell",
+			"Table": 6
+		},
+		{
+			"FirstName": "Rose",
+			"LastName": "Agao",
+			"Table": 15
+		},
+		{
+			"FirstName": "Samina",
+			"LastName": "Kibathi",
+			"Table": 14
+		},
+		{
+			"FirstName": "Samson",
+			"LastName": "Muniu",
+			"Table": 11
+		},
+		{
+			"FirstName": "Samuel",
+			"LastName": "Boro",
+			"Table": 3
+		},
+		{
+			"FirstName": "Samuel",
+			"LastName": "Kibathi",
+			"Table": 5
+		},
+		{
+			"FirstName": "Sarah",
+			"LastName": "Mburu",
+			"Table": 3
+		},
+		{
+			"FirstName": "Savi",
+			"LastName": "Onderi",
+			"Table": 9
+		},
+		{
+			"FirstName": "Sharon",
+			"LastName": "Karani",
+			"Table": 6
+		},
+		{
+			"FirstName": "Shem",
+			"LastName": "Juma",
+			"Table": 7
+		},
+		{
+			"FirstName": "Sifa",
+			"LastName": "Mvoi",
+			"Table": 1
+		},
+		{
+			"FirstName": "Sister",
+			"LastName": "Wilson",
+			"Table": 7
+		},
+		{
+			"FirstName": "Stephanie",
+			"LastName": "Ongera",
+			"Table": 12
+		},
+		{
+			"FirstName": "Stephen",
+			"LastName": "Muroki",
+			"Table": 2
+		},
+		{
+			"FirstName": "Sullen",
+			"LastName": "Adolwa",
+			"Table": 4
+		},
+		{
+			"FirstName": "Susan",
+			"LastName": "Agufwa",
+			"Table": 11
+		},
+		{
+			"FirstName": "Susan",
+			"LastName": "Ji Siwa",
+			"Table": 2
+		},
+		{
+			"FirstName": "Suzie",
+			"LastName": "Akwera",
+			"Table": 4
+		},
+		{
+			"FirstName": "Takunda",
+			"LastName": "Chimunda",
+			"Table": 9
+		},
+		{
+			"FirstName": "Tatyana",
+			"LastName": "Nduta",
+			"Table": 12
+		},
+		{
+			"FirstName": "Terry",
+			"LastName": "Gibson",
+			"Table": 4
+		},
+		{
+			"FirstName": "Tom",
+			"LastName": "Onditi",
+			"Table": 1
+		},
+		{
+			"FirstName": "Tony",
+			"LastName": "Wallace",
+			"Table": 5
+		},
+		{
+			"FirstName": "Tramaine",
+			"LastName": "Williams",
+			"Table": 13
+		},
+		{
+			"FirstName": "Vanessa",
+			"LastName": "Ogaga",
+			"Table": 1
+		},
+		{
+			"FirstName": "Veronica",
+			"LastName": "Kogera",
+			"Table": 15
+		},
+		{
+			"FirstName": "Victor",
+			"LastName": "Aiah jmes",
+			"Table": 8
+		},
+		{
+			"FirstName": "Willis",
+			"LastName": "Owallah",
+			"Table": 1
+		},
+		{
+			"FirstName": "Yvonne",
+			"LastName": "Ayuak",
+			"Table": 1
+		},
+		{
+			"FirstName": "Yvonne",
+			"LastName": "Ongera",
+			"Table": 12
+		},
+		{
+			"FirstName": "Zolile",
+			"LastName": "Ntombela",
+			"Table": 12
+		}
+	]
+}

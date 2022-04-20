@@ -15,9 +15,6 @@ const Registry = () => {
 					<p>
 						<b>Zelle: </b>theowallahs@gmail.com
 					</p>
-					<p>
-						<b>CashApp: </b>$theowallahs
-					</p>
 				</RegistryWrapper>
 			</RegistryCont>
 		</section>
