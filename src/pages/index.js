@@ -7,9 +7,8 @@ import Details from '../components/Details';
 import Party from '../components/Party';
 import Registry from '../components/Registry';
 import Footer from '../components/Footer';
-import Rsvp from '../components/Rsvp';
-// import Loader from '../components/Loader';
 import Slider from '../components/Slider';
+import Seating from '../components/Seating';
 
 const Home = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +23,11 @@ const Home = () => {
 			<Hero />
 			<OurStory />
 			<Details />
-			<Rsvp />
+			<Seating />
 			<Party />
 			<Slider />
 			<Registry />
 			<Footer />
-			{/* <Loader /> */}
 		</>
 	);
 };

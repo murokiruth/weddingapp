@@ -1,14 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import {
-	Nav,
-	NavCont,
-	NavMenu,
-	NavLogo,
-	NavItem,
-	NavLink,
-	MobileIcon,
-} from './NavBarElements';
+import { Nav, NavCont, NavMenu, NavLogo, NavItem, NavLink, MobileIcon } from './NavBarElements';
 import { animateScroll as scroll } from 'react-scroll';
 import { GiLoveMystery } from 'react-icons/gi';
 import '../../App.css';
@@ -35,7 +27,7 @@ const NavBar = ({ toggle }) => {
 		<>
 			<Nav scrollNav={scrollNav}>
 				<NavCont>
-					<NavLogo to="/">
+					<NavLogo to='/'>
 						<GiLoveMystery onClick={toggleHome} />
 					</NavLogo>
 
@@ -45,79 +37,38 @@ const NavBar = ({ toggle }) => {
 
 					<NavMenu>
 						<NavItem>
-							<NavLink
-								to="story"
-								smooth={true}
-								duration={500}
-								spy={true}
-								offset={-80}
-								exact="true"
-							>
+							<NavLink to='story' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
 								{' '}
 								Our Story{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink
-								to="details"
-								smooth={true}
-								duration={500}
-								spy={true}
-								offset={-80}
-								exact="true"
-							>
+							<NavLink to='details' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
 								{' '}
 								Details{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink
-								to="rsvp"
-								smooth={true}
-								duration={500}
-								spy={true}
-								offset={-80}
-								exact="true"
-							>
+							<NavLink to='seating' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
 								{' '}
-								RSVP{' '}
+								Seating{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink
-								to="party"
-								smooth={true}
-								duration={500}
-								spy={true}
-								exact="true"
-								offset={-80}
-							>
+							<NavLink to='party' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
 								{' '}
 								Wedding Party{' '}
 							</NavLink>
 						</NavItem>
 
 						<NavItem>
-							<NavLink
-								to="memories"
-								smooth={true}
-								duration={500}
-								spy={true}
-								offset={-80}
-								exact="true"
-							>
+							<NavLink to='memories' smooth={true} duration={500} spy={true} offset={-80} exact='true'>
 								{' '}
 								Memories{' '}
 							</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink
-								to="registry"
-								smooth={true}
-								duration={500}
-								spy={true}
-								offset={-80}
-							>
+							<NavLink to='registry' smooth={true} duration={500} spy={true} offset={-80}>
 								{' '}
 								Registry{' '}
 							</NavLink>
